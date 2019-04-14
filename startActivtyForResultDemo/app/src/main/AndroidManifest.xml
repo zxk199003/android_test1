@@ -17,6 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".ThirdActivity">
+            <intent-filter>
+                <action android:name="com.example.MainA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.MY_CATEGORY"/>
+
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
